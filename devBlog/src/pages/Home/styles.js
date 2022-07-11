@@ -40,7 +40,6 @@ export const Main = styled.View`
     flex: 1;
     background-color: #fff;
     margin-top: -30px;
-  
 `
 
 export const Text = styled.Text`
@@ -48,5 +47,10 @@ export const Text = styled.Text`
     font-weight: bold;
     margin-top: ${({ hasFavorites }) => hasFavorites };
     margin-left: 18px;
-  
+    margin-bottom: 10px;
+`
+
+export const Posts = styled.FlatList`
+    flex: 1;
+    padding: 0 18px;
 `
