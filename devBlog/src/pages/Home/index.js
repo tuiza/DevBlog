@@ -1,4 +1,4 @@
-import React, { useEffect, useState, FlatList } from 'react';
+import React, { useEffect, useState } from 'react';
 import * as S from './styles.js'
 import { useNavigation } from '@react-navigation/native'
 import { Feather } from '@expo/vector-icons'
@@ -7,6 +7,7 @@ import CategoryItem from '../../components/CategoryItem/index.js';
 import { getFavorite, setFavorite } from '../../services/favorite.js';
 
 import FavoritePost from '../FavoritePost/index.js';
+import PostItem from '../../components/PostItem/index.js';
 
 export default function Home() {
   const navigation = useNavigation()
@@ -14,10 +15,12 @@ export default function Home() {
   const [categories, setCategories] = useState([]);
   const [favCategory, setFavCategory] = useState([]);
   const [hasFavorites, setHasFavorites] = useState();
+  const [posts, setPosts] = useState([]);
 
   async function loadData() {
     const category = await api.get("/api/categories?populate=icon")
     setCategories(category.data.data)
+    await getListPosts()
   }
 
   async function handleFavorite(categoryId) {
@@ -30,6 +33,11 @@ export default function Home() {
     setFavCategory(response)
   }
 
+  async function getListPosts() {
+    const response = await api.get("api/posts?populate=cover&sort=createdAt:desc")
+    setPosts(response.data.data)
+  }
+
   useEffect(() => {
     loadData()
     loadFavorite()
@@ -38,6 +46,7 @@ export default function Home() {
   useEffect(() => {
     loadFavorite()
   }, [favCategory])
+
 
   return (
     <S.SafeAreaView>
@@ -69,6 +78,14 @@ export default function Home() {
         <S.Text hasFavorites={favCategory.length > 0 ? '14px' : '45px'} >
           Conteúdos em alta
         </S.Text>
+        <S.Posts
+          horizontal={false}
+          showsVerticalScrollIndicator={false}
+          contentContainerStyle={{ paddinRight: 12 }}
+          data={posts}
+          key={(item) => String(item.id)}
+          renderItem={({ item })=> <PostItem data={item}/>}
+        />
       </S.Main>
 
     </S.SafeAreaView >
