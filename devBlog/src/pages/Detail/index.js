@@ -7,7 +7,7 @@ import { Feather, Entypo } from '@expo/vector-icons'
 import { Share, TouchableOpacity, modal } from 'react-native'
 
 import LinkWeb from '../../components/LinkWeb/index.js'
-import { Modal } from 'react-native-web';
+import { Modal } from 'react-native';
 
 export default function Detail() {
   const navigation = useNavigation()

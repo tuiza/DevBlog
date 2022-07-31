@@ -11,7 +11,7 @@ export default function PostItem({ data }) {
         <S.Container onPress={() => handleDetails()}>
             <S.Image source={{ uri: `http://192.168.100.188:1337${data?.attributes?.cover?.data?.attributes?.url}` }} />
             <S.TextContainer>
-                <S.Title>{data.attributes.title}</S.Title>
+                <S.Title numberOfLines={1}>{data.attributes.title}</S.Title>
                 <S.Description numberOfLines={2}>{data.attributes.description}
                 </S.Description>
             </S.TextContainer>
