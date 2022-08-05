@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Devblog" />
+  <img src="./DEVbLOG.png" alt="Devblog" />
 
   &#xa0;
 
@@ -7,16 +7,6 @@
 </div>
 
 <h1 align="center">Devblog</h1>
-
-<p align="center">
-  <img alt="Principal linguagem do projeto" src="https://img.shields.io/github/languages/top/luizamarlene/devblog?color=56BEB8">
-
-  <img alt="Quantidade de linguagens utilizadas" src="https://img.shields.io/github/languages/count/luizamarlene/devblog?color=56BEB8">
-
-  <img alt="Tamanho do repositório" src="https://img.shields.io/github/repo-size/luizamarlene/devblog?color=56BEB8">
-
-
-</p>
 
 <!-- Status -->
 
