@@ -1,3 +1,4 @@
+<h1 align="center">Devblog</h1>
 <div align="center" id="top"> 
   <img src="./DEVbLOG.png" alt="Devblog" />
 
@@ -6,7 +7,7 @@
   <!-- <a href="https://devblog.netlify.com">Demo</a> -->
 </div>
 
-<h1 align="center">Devblog</h1>
+
 
 <!-- Status -->
 
@@ -36,7 +37,7 @@ DevBlog é um aplicativo móvel no estilo de blog com publicações sobre desenv
 
 :heavy_check_mark: Adicionar posts e categorias por meio do CDN Strapi\
 :heavy_check_mark: Visualizar posts realcionados a programação\
-:heavy_check_mark: Salvar categoria favorita;
+:heavy_check_mark: Salvar categoria favorita
 
 ## :rocket: Tecnologias ##
 
