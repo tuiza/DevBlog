@@ -1,6 +1,6 @@
 <h1 align="center">Dev Blog</h1>
 <div align="center" id="top"> 
-  <img src="./DEVbLOG.png" alt="Devblog" width='70%' />
+  <img src="./DEVbLOG.png" alt="Devblog"  />
 
   &#xa0;
 
