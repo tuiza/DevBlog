@@ -1,5 +1,8 @@
-import { useLinkProps } from '@react-navigation/native'
 import styled from 'styled-components'
+import * as Animatable from 'react-native-animatable'
+import { FlatList } from 'react-native'
+
+const FlatListAnimated = Animatable.createAnimatableComponent(FlatList)
 
 export const SafeAreaView = styled.SafeAreaView`
     flex: 1;
@@ -13,7 +16,7 @@ export const Header = styled.View`
     margin: 18px 18px 24px;
 `
 
-export const Title = styled.Text`
+export const Title = styled(Animatable.Text)`
     color: #fff;
     font-weight: bold;
     font-size: 28px;
@@ -22,7 +25,7 @@ export const Title = styled.Text`
 export const Button = styled.TouchableOpacity`
 `
 
-export const Categories = styled.FlatList`
+export const Categories = styled(FlatListAnimated)`
     max-height: 115px;
     background-color: #EFEFEF;
     margin: 0 18px;

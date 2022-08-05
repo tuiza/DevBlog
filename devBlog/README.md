@@ -46,7 +46,7 @@
 
 ## :dart: Sobre ##
 
-Sobre o seu projeto
+DevBlog é um aplicativo móvel no estilo de blog com publicações sobre desenvolvimento. 
 
 ## :sparkles: Funcionalidades ##
 

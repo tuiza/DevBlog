@@ -3,7 +3,7 @@ import styled from 'styled-components/native';
 export const Container = styled.TouchableOpacity`
     display: flex;
     flex-direction: row;
-    border: 1px solid #EFEFEF;
+    border: 2px solid #EFEFEF;
     border-radius: 4px;
     margin-bottom: 14px;
     align-items: center;
@@ -26,13 +26,12 @@ export const Title = styled.Text`
     font-weight: bold;
     padding: 0 0 10px 8px;
     font-size: 14px;
+    width: 80%;
     `
 
 export const Description = styled.Text`
   margin: 0 8px;
   font-size: 12px;
   line-height: 16px;
-  width: 80%;
-  
-  
+  width: 80%; 
 `;
