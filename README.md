@@ -1,4 +1,4 @@
-<h1 align="center">Devblog</h1>
+<h1 align="center">Dev Blog</h1>
 <div align="center" id="top"> 
   <img src="./DEVbLOG.png" alt="Devblog" />
 
