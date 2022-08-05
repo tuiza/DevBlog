@@ -15,13 +15,7 @@
 
   <img alt="Tamanho do repositório" src="https://img.shields.io/github/repo-size/luizamarlene/devblog?color=56BEB8">
 
-  <img alt="Licença" src="https://img.shields.io/github/license/luizamarlene/devblog?color=56BEB8">
 
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/luizamarlene/devblog?color=56BEB8" /> -->
-
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/luizamarlene/devblog?color=56BEB8" /> -->
-
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/luizamarlene/devblog?color=56BEB8" /> -->
 </p>
 
 <!-- Status -->
@@ -50,9 +44,9 @@ DevBlog é um aplicativo móvel no estilo de blog com publicações sobre desenv
 
 ## :sparkles: Funcionalidades ##
 
-:heavy_check_mark: Funcionalidade 1;\
-:heavy_check_mark: Funcionalidade 2;\
-:heavy_check_mark: Funcionalidade 3;
+:heavy_check_mark: Adicionar posts e categorias por meio do CDN Strapi\
+:heavy_check_mark: Visualizar posts realcionados a programação\
+:heavy_check_mark: Salvar categoria favorita;
 
 ## :rocket: Tecnologias ##
 
