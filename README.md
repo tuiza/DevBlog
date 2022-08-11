@@ -36,7 +36,7 @@ DevBlog é um aplicativo móvel no estilo de blog com publicações sobre desenv
 ## :sparkles: Funcionalidades ##
 
 :heavy_check_mark: Adicionar posts e categorias por meio do CDN Strapi\
-:heavy_check_mark: Visualizar posts realcionados a programação\
+:heavy_check_mark: Visualizar posts relacionados a tecnologia \
 :heavy_check_mark: Salvar categoria favorita
 
 ## :rocket: Tecnologias ##
@@ -47,7 +47,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Node.js](https://nodejs.org/en/)
 - [React](https://pt-br.reactjs.org/)
 - [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [Strapi](https://strapi.io/)
+
 
 ## :white_check_mark: Pré requisitos ##
 
@@ -66,7 +67,7 @@ $ cd devblog
 $ yarn
 
 # Para iniciar o projeto
-$ yarn start
+$ yarn develop
 
 # O app vai inicializar em <http://localhost:3000>
 ```
